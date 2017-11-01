@@ -1,0 +1,40 @@
+h1 {
+    font-family: sans-serif;
+    font-size: 3em;
+    color : darkblue;
+    font-weight: bolder;
+    text-align: center;
+    background-color: wheat;
+
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+.subtitles {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: slateblue;
+}
+.colorchange {
+    color:firebrick;
+    transition: 1s;
+    animation: 1s rainbow infinite;
+}
+@keyframes rainbow{
+    0%{opacity: 1;}
+    25%{opacity: 0.7}
+    50%{opacity: 0.3}
+    75%{opacity: 0.7}
+    100%{opacity: 1}
+}
+#ani{
+    width: 50px;
+    height: 50px;
+    background: yellowgreen;
+    animation: 3s RARB infinite;
+}
+@keyframes RARB{
+    0%{transform: rotate(0deg);opacity: 1}
+    50%{transform: rotate(360deg);opacity: 0.1}
+    100%{transform: rotate(-360deg);opacity: 1}
+}
