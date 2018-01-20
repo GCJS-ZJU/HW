@@ -1,0 +1,52 @@
+body
+{
+    background-color: #F53F3E;
+    color: black;
+}
+
+.title
+{
+    font-size: 60px;
+    text-align: center;
+}
+
+.button
+{
+    width: 120px;
+    height: 120px;
+    font-size: x-large;
+    background-color: black;
+    text-align: center;
+}
+.button:hover
+{
+    animation: 3s RotAndRanB infinite;
+}
+@keyframes RotAndRanB
+{
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(30deg);}
+    75% {transform: rotate(-30deg);}
+}
+.button, a:link
+{
+    color: white;
+    text-decoration:none;
+}
+.button, a:visited
+{
+    color: white;
+    text-decoration:none;
+}
+
+#table
+{
+    margin: 0 auto;
+    align-content: center;
+}
+
+form
+{
+    margin: 0 auto;
+    width: 550px;
+}
